@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BrightWebFrameworkDemo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BrightWebFrameworkDemo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BrightWebFrameworkDemo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BrightWebFrameworkDemo" />
+          <element id="module-output" name="BrightWebFramework" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="dom4j-1.6.1" />
+          <element id="library" level="project" name="commons-fileupload-1.3.1" />
+          <element id="library" level="project" name="commons-io-2.4" />
+          <element id="library" level="project" name="cglib-3.1" />
+          <element id="library" level="project" name="junit" />
+          <element id="library" level="project" name="fel-all-bright" />
+          <element id="library" level="project" name="antlr-min-3.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

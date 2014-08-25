@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<bright-config
+        xmlns="http://www.bright.cn"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.bright.cn bright-config.xsd">
+    <error-config>
+        <convert-failed>ADD_WARING_FIELD</convert-failed>
+        <validation-failed>ADD_WARING_FIELD</validation-failed>
+    </error-config>
+
+    <allclear>jsp,html,js,css,jpg,gif,htm,png</allclear>
+    <!--定义的modul将按照顺序执行,此为默认的执行顺序-->
+    <modules>
+        <module>cn.bright.webframework.module.imp.ActorFinderModule</module>
+        <module>cn.bright.webframework.module.imp.URIParseModule</module>
+        <module>cn.bright.webframework.module.imp.ActorBuildModule</module>
+        <module>cn.bright.webframework.module.imp.UpLoadModule</module>
+        <module>cn.bright.webframework.module.imp.DataConvertModule</module>
+        <module>cn.bright.webframework.module.imp.ValidationModule</module>
+    </modules>
+</bright-config>

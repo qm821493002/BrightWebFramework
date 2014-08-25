@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fel-all-bright">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BrightWebFramework/libs/fel-all-bright.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

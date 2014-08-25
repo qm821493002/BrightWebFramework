@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="junit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BrightWebFramework/libs/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BrightWebFramework/libs/jarjar.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BrightWebFramework/libs/asm-util-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BrightWebFramework/libs/asm-commons-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BrightWebFramework/libs/asm-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BrightWebFramework/libs/ant.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

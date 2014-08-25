@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<note
+        xmlns="http://www.bright.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.bright.com bright-config.xsd">
+
+    <from attribute1="sd">
+        <test1>sd</test1>
+        <test2>sds</test2>
+    </from>
+    <to>Sam</to>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+    <age >18</age>
+
+</note>

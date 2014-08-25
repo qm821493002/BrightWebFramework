@@ -1,0 +1,107 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>bri</short-name>
+    <uri>/bright-tags</uri>
+    <tag>
+        <name>Hello</name>
+        <tag-class>cn.bright.webframework.helper.tags.HelloTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>if</name>
+        <tag-class>cn.bright.webframework.helper.tags.IfTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>expression</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <name>else</name>
+        <tag-class>cn.bright.webframework.helper.tags.ElseTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+
+    <tag>
+        <name>out</name>
+        <tag-class>cn.bright.webframework.helper.tags.OutTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>expression</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <name>iterator</name>
+        <tag-class>cn.bright.webframework.helper.tags.IteratorTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>expression</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>item</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>status</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+
+
+    <tag>
+        <name>bean</name>
+        <tag-class>cn.bright.webframework.helper.tags.BeanTag</tag-class>
+        <body-content>scriptless</body-content>
+
+        <attribute>
+            <name>className</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>scope</name>
+            <required>false</required>
+        </attribute>
+
+    </tag>
+
+    <tag>
+        <name>param</name>
+        <tag-class>cn.bright.webframework.helper.tags.ParamTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+
+
+
+    <tag>
+        <name>date</name>
+        <tag-class>cn.bright.webframework.helper.tags.DateTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>name</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>format</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>expression</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+</taglib>
